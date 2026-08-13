@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Suppression de compte — Ruchéo Tycoon</title>
+<style>
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px 16px 60px;
+    line-height: 1.6;
+    color: #222;
+    background: #fafafa;
+  }
+  img.banner {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    display: block;
+    margin-bottom: 24px;
+  }
+  h1 {
+    font-size: 1.8em;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 10px;
+  }
+  h2 {
+    font-size: 1.3em;
+    margin-top: 32px;
+    color: #333;
+  }
+  .updated {
+    color: #666;
+    font-style: italic;
+    margin-bottom: 24px;
+  }
+  strong.highlight {
+    background: #fff3cd;
+    padding: 2px 6px;
+    border-radius: 4px;
+  }
+  ol, ul {
+    padding-left: 22px;
+  }
+  li {
+    margin-bottom: 6px;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 12px 0;
+  }
+  th, td {
+    text-align: left;
+    padding: 8px 10px;
+    border-bottom: 1px solid #e0e0e0;
+    font-size: 0.95em;
+    vertical-align: top;
+  }
+  th {
+    color: #555;
+  }
+  a {
+    color: #0066cc;
+  }
+  .box {
+    background: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 16px 18px;
+    margin: 16px 0;
+  }
+  footer {
+    margin-top: 40px;
+    padding-top: 16px;
+    border-top: 1px solid #eee;
+    color: #888;
+    font-size: 0.9em;
+  }
+</style>
+</head>
+<body>
+
+<img class="banner" src="ban.png" alt="Ruchéo Tycoon">
+
+<h1>Suppression de compte et de données — Ruchéo Tycoon</h1>
+<p class="updated">Dernière mise à jour : 13 août 2026</p>
+
+<p>Ruchéo Tycoon ne demande ni email ni mot de passe : votre « compte » est un identifiant anonyme créé automatiquement par l'application (voir notre <a href="privacy.html">politique de confidentialité</a>). Vous pouvez à tout moment demander la suppression complète de cet identifiant et de toutes les données qui lui sont associées, que vous ayez encore l'application installée ou non.</p>
+
+<h2>Ce qui est supprimé</h2>
+<table>
+  <tr><th>Donnée</th><th>Où elle vit</th></tr>
+  <tr><td>Identifiant anonyme (UID Firebase) et le compte associé</td><td>Firebase Authentication</td></tr>
+  <tr><td>Pseudo et statistiques de classement</td><td>Firestore (base de données Google)</td></tr>
+  <tr><td>Adhésion et données de Mode Équipe</td><td>Firestore</td></tr>
+  <tr><td>Progression de jeu sauvegardée sur l'appareil</td><td>Stockage local de votre téléphone (effacée en désinstallant l'application)</td></tr>
+</table>
+<p>Cette suppression est <strong class="highlight">définitive et irréversible</strong> : votre progression, votre pseudo et votre place au classement ne peuvent pas être restaurés ensuite.</p>
+
+<h2>Option 1 — Depuis l'application (recommandé)</h2>
+<ol>
+  <li>Ouvrez Ruchéo Tycoon</li>
+  <li>Appuyez sur la roue crantée ⚙️ (Réglages), en bas de la barre de ressources en haut de l'écran</li>
+  <li>Appuyez sur « Supprimer mon compte et mes données »</li>
+  <li>Confirmez — la suppression est effectuée immédiatement</li>
+</ol>
+
+<h2>Option 2 — Sans l'application installée</h2>
+<div class="box">
+  <p>Envoyez un email à <strong>contact@rucheoconnect.fr</strong> avec pour objet « Suppression de compte », en indiquant :</p>
+  <ul>
+    <li>Votre <strong>ID du joueur</strong> (visible dans Réglages de l'application, ou dans un email de confirmation d'achat le cas échéant)</li>
+  </ul>
+  <p>Nous traiterons votre demande sous 30 jours maximum et vous confirmerons par email une fois la suppression effectuée.</p>
+</div>
+
+<h2>Ce qui n'est PAS supprimé automatiquement</h2>
+<p>Un achat déjà effectué (Gelée Royale, offres, abonnement) reste géré par votre compte Google Play — la suppression de vos données de jeu n'annule pas un achat ni ne déclenche de remboursement. Pour toute question sur un achat, contactez le support Google Play directement.</p>
+
+<footer>
+  &copy; 2026 Ruchéo Tycoon — <a href="privacy.html">Politique de confidentialité</a>
+</footer>
+
+</body>
+</html>
