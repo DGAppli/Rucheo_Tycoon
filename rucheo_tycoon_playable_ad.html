@@ -525,7 +525,7 @@
     <div id="objective-progress-view">
       <div id="objective-top-row">
         <span id="objective-label">🌟 Objectif : Lance ton 1er essaimage</span>
-        <span id="objective-progress-text">0 / 500 M</span>
+        <span id="objective-progress-text">0 / 250 M</span>
       </div>
       <div id="objective-track"><div id="objective-fill"></div></div>
     </div>
@@ -761,7 +761,7 @@
   // prestige, balancing.dart, compare aussi un total cumulé, pas le solde
   // courant). Atteint -> un gros bouton remplace la barre et bascule
   // directement sur l'écran de fin/CTA.
-  var ESSAIMAGE_THRESHOLD = 500000000;
+  var ESSAIMAGE_THRESHOLD = 250000000;
 
   // Pas de plafond de niveau (demande explicite : "je veux faire découvrir
   // la mécanique du jeu", pas couper la démo après un nombre d'améliorations
@@ -1057,7 +1057,7 @@
     if (!state.essaimageReady) {
       var progressPct = Math.min(100, (state.totalPollenEarned / ESSAIMAGE_THRESHOLD) * 100);
       objectiveFill.style.width = progressPct + "%";
-      objectiveProgressText.textContent = formatPollen(state.totalPollenEarned) + " / 500 M";
+      objectiveProgressText.textContent = formatPollen(state.totalPollenEarned) + " / 250 M";
       if (state.totalPollenEarned >= ESSAIMAGE_THRESHOLD) {
         state.essaimageReady = true;
         objectiveProgressView.style.display = "none";
