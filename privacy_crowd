@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Politique de confidentialité — Ruchéo Crowd</title>
+<style>
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px 16px 60px;
+    line-height: 1.6;
+    color: #222;
+    background: #fafafa;
+  }
+  img.banner {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    display: block;
+    margin-bottom: 24px;
+  }
+  h1 {
+    font-size: 1.8em;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 10px;
+  }
+  h2 {
+    font-size: 1.3em;
+    margin-top: 32px;
+    color: #333;
+  }
+  .updated {
+    color: #666;
+    font-style: italic;
+    margin-bottom: 24px;
+  }
+  strong.highlight {
+    background: #fff3cd;
+    padding: 2px 6px;
+    border-radius: 4px;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 12px 0;
+  }
+  th, td {
+    text-align: left;
+    padding: 8px 10px;
+    border-bottom: 1px solid #e0e0e0;
+    font-size: 0.95em;
+    vertical-align: top;
+  }
+  th {
+    color: #555;
+  }
+  a {
+    color: #0066cc;
+  }
+  footer {
+    margin-top: 40px;
+    padding-top: 16px;
+    border-top: 1px solid #eee;
+    color: #888;
+    font-size: 0.9em;
+  }
+</style>
+</head>
+<body>
+
+<img class="banner" src="bann_rucheocrowd.png" alt="Ruchéo Crowd">
+
+<h1>Politique de confidentialité — Ruchéo Crowd</h1>
+<p class="updated">Dernière mise à jour : 18 août 2026</p>
+
+<p>Merci d'utiliser <strong>Ruchéo Crowd</strong> (ci-après « l'application »). Cette politique de confidentialité a pour but de vous informer sur la manière dont nous traitons vos données lorsque vous utilisez l'application.</p>
+
+<h2>1. Ce que nous collectons</h2>
+<p>Ruchéo Crowd <strong class="highlight">ne demande jamais votre nom, votre email ou un mot de passe</strong> — il n'y a pas de création de compte classique. À la place, l'application crée automatiquement, à la première ouverture, un identifiant anonyme propre à votre installation (via Firebase Authentication, mode anonyme). Cet identifiant, ainsi que certaines données de jeu, peuvent être associés :</p>
+<table>
+  <tr><th>Donnée</th><th>Pourquoi</th><th>Optionnel ?</th></tr>
+  <tr><td>Identifiant anonyme d'installation (UID Firebase)</td><td>Reconnaître votre progression entre deux sessions, classement, Mode Équipe</td><td>Non (technique, pas de contenu personnel)</td></tr>
+  <tr><td>Pseudo choisi en jeu</td><td>Affichage dans le classement mondial et le Mode Équipe</td><td>Oui — le jeu reste jouable sans en choisir un</td></tr>
+  <tr><td>Statistiques de jeu (miel produit, essaimages, équipe)</td><td>Classement, ligues, fonctionnement du Mode Équipe</td><td>Non (nécessaire à ces fonctionnalités)</td></tr>
+</table>
+<p>Ces données sont stockées sur nos serveurs (Firebase/Firestore, Google) associées uniquement à votre identifiant anonyme — jamais à une identité réelle, puisque nous n'en collectons aucune.</p>
+
+
+<h2>3. Publicités et achats intégrés</h2>
+<p>L'application propose des vidéos publicitaires récompensées via <strong>Google AdMob</strong>, et des achats intégrés (monnaie premium, offres) via <strong>Google Play Billing</strong>. Ces services sont fournis par Google et peuvent collecter des données techniques (identifiant publicitaire, informations sur l'appareil) selon leurs propres règles de confidentialité :</p>
+<ul>
+  <li>Politique de confidentialité Google : <a href="https://policies.google.com/privacy">policies.google.com/privacy</a></li>
+  <li>Paramètres de publicité Google (pour limiter la personnalisation) : <a href="https://myadcenter.google.com/">myadcenter.google.com</a></li>
+</ul>
+<p>Les achats intégrés sont traités entièrement par Google Play — nous ne recevons ni ne stockons aucune information de paiement (carte bancaire, etc.).</p>
+
+<h2>4. Notifications</h2>
+<p>Avec votre autorisation, l'application peut vous envoyer des notifications (via Firebase Cloud Messaging) pour des annonces générales du jeu. Vous pouvez désactiver cette permission à tout moment depuis les réglages de votre appareil.</p>
+
+<h2>5. Données des mineurs</h2>
+<p>Ruchéo Tycoon ne collecte volontairement aucune information d'identité (nom, email, âge) et ne s'adresse pas spécifiquement à un jeune public. Si vous êtes parent ou tuteur et pensez qu'un enfant utilise l'application, sachez que seules les données décrites ci-dessus (identifiant anonyme, pseudo optionnel, statistiques de jeu) sont concernées.</p>
+
+<h2>6. Sécurité et conservation</h2>
+<p>Les données décrites ci-dessus sont hébergées par Firebase (Google Cloud). Elles sont conservées tant que vous utilisez l'application ; vous pouvez à tout moment demander leur suppression complète (voir section suivante).</p>
+
+<h2>7. Vos droits — suppression de vos données</h2>
+<p>Vous pouvez à tout moment demander la suppression de votre pseudo, de vos statistiques de classement/Mode Équipe et de votre identifiant anonyme. Marche à suivre complète : <a href="delete-account.html">Suppression de compte et de données</a>.</p>
+<p>Si vous résidez dans l'Union européenne, ce droit à l'effacement est garanti par le RGPD (article 17), quelle que soit la façon dont vos données ont été collectées.</p>
+
+<h2>8. Modifications de cette politique</h2>
+<p>Cette politique de confidentialité peut être mise à jour occasionnellement, notamment si de nouvelles fonctionnalités du jeu impliquent de nouvelles données. Toute modification sera publiée sur cette page avec une nouvelle date de mise à jour.</p>
+
+<h2>9. Contact</h2>
+<p>Pour toute question concernant cette politique de confidentialité ou vos données :</p>
+<p><strong>contact@rucheoconnect.fr</strong></p>
+
+<footer>
+  &copy; 2026 Ruchéo Crowd — <a href="delete-account_crowd.html">Suppression de compte</a>
+</footer>
+
+</body>
+</html>
